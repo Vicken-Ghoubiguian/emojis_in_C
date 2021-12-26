@@ -1,6 +1,13 @@
 //
 #include <stdio.h>
 
+//
+char* getEmojiFromUnicode() {
+
+	//
+	return "";
+}
+
 // Definition of the main function of this file...
 int main() {
 
