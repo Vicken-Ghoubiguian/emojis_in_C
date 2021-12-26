@@ -1,28 +1,28 @@
 //
 #include <stdio.h>
 
-//
+// Definition of the 'getEmojiFromUnicode' function to get the emoji corresponding to the 'unicode' unicode...
 char* getEmojiFromUnicode(char* unicode) {
 
 	//
 	return "";
 }
 
-//
+// Definition of the 'getEmojiFromName' function to get the emoji corresponding to the 'name' name...
 char* getEmojiFromName(char* name) {
 
 	//
 	return "";
 }
 
-//
+// Definition of the 'getEmojiFromSlug' function to get the emoji corresponding to the 'slug' slug...
 char* getEmojiFromSlug(char* slug) {
 
 	//
 	return "";
 }
 
-//
+// Definition of the 'getEmojiFromId' function to get the emoji corresponding to the 'id' id...
 char* getEmojiFromId(int id) {
 
 	//
