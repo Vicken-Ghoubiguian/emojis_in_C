@@ -2,28 +2,28 @@
 #include <stdio.h>
 
 //
-char* getEmojiFromUnicode() {
+char* getEmojiFromUnicode(char* unicode) {
 
 	//
 	return "";
 }
 
 //
-char* getEmojiFromName() {
+char* getEmojiFromName(char* name) {
 
 	//
 	return "";
 }
 
 //
-char* getEmojiFromSlug() {
+char* getEmojiFromSlug(char* slug) {
 
 	//
 	return "";
 }
 
 //
-char* getEmojiFromId() {
+char* getEmojiFromId(int id) {
 
 	//
 	return "";
