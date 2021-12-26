@@ -12,7 +12,7 @@ char* getEmojiFromUnicode() {
 int main() {
 
 	// Display the unicorn emoji from its unicode...
-	printf("\U0001f984");
+	printf("\U0001F984");
 
 	// Display the cat emoji from its unicode...
 	printf("\U0001F431");
