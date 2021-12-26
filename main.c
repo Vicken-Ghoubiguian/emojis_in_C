@@ -8,6 +8,27 @@ char* getEmojiFromUnicode() {
 	return "";
 }
 
+//
+char* getEmojiFromName() {
+
+	//
+	return "";
+}
+
+//
+char* getEmojiFromSlug() {
+
+	//
+	return "";
+}
+
+//
+char* getEmojiFromId() {
+
+	//
+	return "";
+}
+
 // Definition of the main function of this file...
 int main() {
 
