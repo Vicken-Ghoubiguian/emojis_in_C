@@ -6,7 +6,13 @@
 int main() {
 
 	Emoji *currentEmoji;
-	//currentEmoji = 
+	currentEmoji = emojiInitializer(13, "Hey 1", "Hey 2", "Hey 3", "Hey 4");
+
+	int test = getEmojiNumber(currentEmoji);
+
+	printf("%d\n", test);
+
+	printf("\n---------------------------------------\n");
 
 	// Display the unicorn emoji from its unicode...
 	printf("\U0001F984");
