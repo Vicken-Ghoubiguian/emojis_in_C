@@ -19,55 +19,55 @@ typedef struct Emoji {
 } Emoji;
 
 //
-Emoji emojiInitializer(int currentNumber, char* currentCode, char* currentName, char* currentCategory, char* currentSubCategory) {
+Emoji *emojiInitializer(int currentNumber, char* currentCode, char* currentName, char* currentCategory, char* currentSubCategory) {
 
     //
-    Emoji emoji;
+    Emoji *emoji;
 
     //
-    emoji.number = currentNumber;
-    emoji.code = currentCode;
-    emoji.name = currentName;
-    emoji.category = currentCategory;
-    emoji.subCategory = currentSubCategory;
+    emoji->number = currentNumber;
+    emoji->code = currentCode;
+    emoji->name = currentName;
+    emoji->category = currentCategory;
+    emoji->subCategory = currentSubCategory;
 
     //
     return emoji;
 }
 
 //
-int getEmojiNumber(Emoji emoji) {
+int getEmojiNumber(Emoji *emoji) {
 
     //
-    return emoji.number;
+    return emoji->number;
 }
 
 //
-char* getEmojiCode(Emoji emoji) {
+char* getEmojiCode(Emoji *emoji) {
 
     //
-    return emoji.code;
+    return emoji->code;
 }
 
 //
-char* getEmojiName(Emoji emoji) {
+char* getEmojiName(Emoji *emoji) {
 
     //
-    return emoji.name;
+    return emoji->name;
 }
 
 //
-char* getEmojiCategory(Emoji emoji) {
+char* getEmojiCategory(Emoji *emoji) {
 
     //
-    return emoji.category;
+    return emoji->category;
 }
 
 //
-char* getEmojiSubCategory(Emoji emoji) {
+char* getEmojiSubCategory(Emoji *emoji) {
 
     //
-    return emoji.subCategory;
+    return emoji->subCategory;
 }
 
 // =================================== Definition of the emoji recovery functions... ===================================
