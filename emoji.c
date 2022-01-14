@@ -7,7 +7,7 @@ typedef struct Emoji {
     int number;
     char* code;
     char* name;
-    char* category
+    char* category;
     char* subCategory;
 
 } Emoji;
