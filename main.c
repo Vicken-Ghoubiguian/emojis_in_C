@@ -1,5 +1,6 @@
 //
 #include <stdio.h>
+#include "emojis_in_C.h"
 
 // Definition of the main function of this file...
 int main() {
