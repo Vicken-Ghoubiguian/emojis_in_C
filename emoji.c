@@ -1,6 +1,8 @@
 //
 #include <stdio.h>
 
+// =================================== Definition of the 'Emoji' struct... ===================================
+
 //
 typedef struct Emoji {
 
