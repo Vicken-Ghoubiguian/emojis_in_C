@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <sqlite3.h>
 
+//
+#include "emojis_in_C"
+
 // =================================== Definition of the 'Emoji' struct... ===================================
 
 //

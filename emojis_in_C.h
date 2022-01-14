@@ -1,0 +1,4 @@
+#ifndef AFFICHAGE_DE_L_HORLOGE
+#define AFFICHAGE_DE_L_HORLOGE
+
+#endif
