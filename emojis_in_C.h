@@ -1,4 +1,6 @@
-#ifndef AFFICHAGE_DE_L_HORLOGE
-#define AFFICHAGE_DE_L_HORLOGE
+#ifndef EMOJIS_IN_C
+#define EMOJIS_IN_C
+
+
 
 #endif
