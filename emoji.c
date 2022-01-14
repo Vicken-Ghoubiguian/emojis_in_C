@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 //
-typedef struct {
+typedef struct Emoji {
 
     int number;
     char* code;
@@ -11,7 +11,4 @@ typedef struct {
     char* subCategory;
 
 } Emoji;
-
-//
-typedef Emoji Emoji;
 
