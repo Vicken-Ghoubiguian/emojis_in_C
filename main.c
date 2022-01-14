@@ -6,11 +6,13 @@
 int main() {
 
 	Emoji *currentEmoji;
-	currentEmoji = emojiInitializer(13, "Hey 1", "Hey 2", "Hey 3", "Hey 4");
+	currentEmoji = emojiInitializer(13, "\U0001F984", "Hey 2", "Hey 3", "Hey 4");
 
 	int test = getEmojiNumber(currentEmoji);
+	char* test1 = getEmojiCode(currentEmoji);
 
 	printf("%d\n", test);
+	printf("%s\n", test1);
 
 	printf("\n---------------------------------------\n");
 
