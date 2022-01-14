@@ -25,3 +25,6 @@ char* getEmojiCategory(Emoji emoji);
 char* getEmojiSubCategory(Emoji emoji);
 
 #endif
+
+// =================================== Definition of the emoji recovery functions... ===================================
+
