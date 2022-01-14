@@ -7,22 +7,22 @@
 typedef struct Emoji Emoji;
 
 //
-Emoji emojiInitializer(int currentNumber, char* currentCode, char* currentName, char* currentCategory, char* currentSubCategory);
+Emoji *emojiInitializer(int currentNumber, char* currentCode, char* currentName, char* currentCategory, char* currentSubCategory);
 
 //
-int getEmojiNumber(Emoji emoji);
+int getEmojiNumber(Emoji *emoji);
 
 //
-char* getEmojiCode(Emoji emoji);
+char* getEmojiCode(Emoji *emoji);
 
 //
-char* getEmojiName(Emoji emoji);
+char* getEmojiName(Emoji *emoji);
 
 //
-char* getEmojiCategory(Emoji emoji);
+char* getEmojiCategory(Emoji *emoji);
 
 //
-char* getEmojiSubCategory(Emoji emoji);
+char* getEmojiSubCategory(Emoji *emoji);
 
 // =================================== Definition of the emoji recovery functions... ===================================
 
