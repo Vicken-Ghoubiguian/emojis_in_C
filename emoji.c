@@ -28,3 +28,10 @@ Emoji emojiInitializer(int currentNumber, char* currentCode, char* currentName, 
     //
     return emoji;
 }
+
+//
+int getEmojiNumber(Emoji emoji) {
+
+    //
+    return emoji.number;
+}
