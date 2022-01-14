@@ -1,9 +1,6 @@
 //
 #include <stdio.h>
-
-// =================================== Definition of the emoji recovery functions... ===================================
-
-
+#include <sqlite3.h>
 
 // =================================== Definition of the 'Emoji' struct... ===================================
 
@@ -69,3 +66,6 @@ char* getEmojiSubCategory(Emoji emoji) {
     //
     return emoji.subCategory;
 }
+
+// =================================== Definition of the emoji recovery functions... ===================================
+
