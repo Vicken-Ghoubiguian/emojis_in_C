@@ -1,5 +1,6 @@
 //
 #include <stdio.h>
+#include <stdlib.h>
 #include "emoji/emoji.h"
 
 // Definition of the main function of this file...
@@ -15,11 +16,14 @@ int main() {
 	//catEmoji = emojiInitializer(541, "\U0001F431", "Hey 2", "Hey 3", "Hey 4");
 
 	//
-	char* unicornEmojiCode = getEmojiCode(unicornEmoji);
+	//char* unicornEmojiCode = (char*) malloc(sizeof(getEmojiCode(unicornEmoji)));
 	//char* catEmojiCode = getEmojiCode(catEmoji);
 
 	//
-	printf("%s\n", unicornEmojiCode);
+	char* unicornEmojiCode = getEmojiCode(unicornEmoji);
+
+	//
+	printf("%s", unicornEmojiCode);
 	//printf("%s", catEmojiCode);
 
 	// Display the crying cat emoji from its unicode...
