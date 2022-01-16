@@ -11,13 +11,8 @@ int main() {
 	int test = getEmojiNumber(unicornEmoji);
 	char* test1 = getEmojiCode(unicornEmoji);
 
-	/*printf("%d\n", test);
-	printf("%s\n", test1);*/
-
-	printf("\n---------------------------------------\n");
-
 	// Display the unicorn emoji from its unicode...
-	printf("%s", test1);
+	printf("%s", getEmojiCode(unicornEmoji));
 
 	// Display the cat emoji from its unicode...
 	printf("\U0001F431");
