@@ -11,13 +11,13 @@ int main() {
 	int test = getEmojiNumber(unicornEmoji);
 	char* test1 = getEmojiCode(unicornEmoji);
 
-	printf("%d\n", test);
-	printf("%s\n", test1);
+	/*printf("%d\n", test);
+	printf("%s\n", test1);*/
 
 	printf("\n---------------------------------------\n");
 
 	// Display the unicorn emoji from its unicode...
-	printf("\U0001F984");
+	printf("%s", test1);
 
 	// Display the cat emoji from its unicode...
 	printf("\U0001F431");
