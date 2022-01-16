@@ -8,9 +8,6 @@ int main() {
 	Emoji *unicornEmoji;
 	unicornEmoji = emojiInitializer(550, "\U0001F984", "Hey 2", "Hey 3", "Hey 4");
 
-	int test = getEmojiNumber(unicornEmoji);
-	char* test1 = getEmojiCode(unicornEmoji);
-
 	// Display the unicorn emoji from its unicode...
 	printf("%s", getEmojiCode(unicornEmoji));
 
