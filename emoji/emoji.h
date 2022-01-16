@@ -1,7 +1,5 @@
-#ifndef EMOJIS_IN_C
-#define EMOJIS_IN_C
-
-// =================================== Definition of the 'Emoji' struct... ===================================
+#ifndef EMOJI
+#define EMOJI
 
 //
 typedef struct Emoji Emoji;
@@ -23,7 +21,5 @@ char* getEmojiCategory(Emoji *emoji);
 
 //
 char* getEmojiSubCategory(Emoji *emoji);
-
-// =================================== Definition of the emoji recovery functions... ===================================
 
 #endif
