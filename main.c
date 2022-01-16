@@ -7,21 +7,23 @@ int main() {
 
 	//
 	Emoji *unicornEmoji;
+	//Emoji *catEmoji;
+	//Emoji *cryingCatEmoji;
 
 	//
 	unicornEmoji = emojiInitializer(550, "\U0001F984", "Hey 2", "Hey 3", "Hey 4");
+	//catEmoji = emojiInitializer(541, "\U0001F431", "Hey 2", "Hey 3", "Hey 4");
 
 	//
 	char* unicornEmojiCode = getEmojiCode(unicornEmoji);
+	//char* catEmojiCode = getEmojiCode(catEmoji);
 
-	// Display the unicorn emoji from its unicode...
-	printf("%s", unicornEmojiCode);
-
-	// Display the cat emoji from its unicode...
-	printf("\U0001F431");
+	//
+	printf("%s\n", unicornEmojiCode);
+	//printf("%s", catEmojiCode);
 
 	// Display the crying cat emoji from its unicode...
-	printf("\U0001F63F");
+	//printf("\U0001F63F");
 
 	// Execution without any error...
 	return 0;
