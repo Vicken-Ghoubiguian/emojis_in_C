@@ -1,11 +1,11 @@
 //
 #include <stdio.h>
-#include "emojis_in_C.h"
+#include "emoji/emoji.h"
 
 // Definition of the main function of this file...
 int main() {
 
-	Emoji *currentEmoji;
+	Emoji *unicornEmoji;
 	unicornEmoji = emojiInitializer(550, "\U0001F984", "Hey 2", "Hey 3", "Hey 4");
 
 	int test = getEmojiNumber(unicornEmoji);
