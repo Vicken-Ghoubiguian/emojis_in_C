@@ -12,10 +12,10 @@ int main() {
 	unicornEmoji = emojiInitializer(550, "\U0001F984", "Hey 2", "Hey 3", "Hey 4");
 
 	//
-	char* test = getEmojiCode(unicornEmoji);
+	char* unicornEmojiCode = getEmojiCode(unicornEmoji);
 
 	// Display the unicorn emoji from its unicode...
-	printf("%s", test);
+	printf("%s", unicornEmojiCode);
 
 	// Display the cat emoji from its unicode...
 	printf("\U0001F431");
