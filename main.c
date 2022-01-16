@@ -5,11 +5,17 @@
 // Definition of the main function of this file...
 int main() {
 
+	//
 	Emoji *unicornEmoji;
+
+	//
 	unicornEmoji = emojiInitializer(550, "\U0001F984", "Hey 2", "Hey 3", "Hey 4");
 
+	//
+	char* test = getEmojiCode(unicornEmoji);
+
 	// Display the unicorn emoji from its unicode...
-	printf("%s", getEmojiCode(unicornEmoji));
+	printf("%s", test);
 
 	// Display the cat emoji from its unicode...
 	printf("\U0001F431");
