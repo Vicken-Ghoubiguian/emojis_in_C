@@ -22,4 +22,7 @@ char* getEmojiCategory(Emoji *emoji);
 //
 char* getEmojiSubCategory(Emoji *emoji);
 
+//
+char* toString(Emoji *emoji);
+
 #endif

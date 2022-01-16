@@ -64,3 +64,10 @@ char* getEmojiSubCategory(Emoji *emoji) {
     //
     return emoji->subCategory;
 }
+
+//
+char* toString(Emoji *emoji) {
+
+    //
+    return "";
+}
