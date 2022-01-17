@@ -1,5 +1,6 @@
 //
 #include <stdio.h>
+#include <stdlib.h>
 #include <sqlite3.h>
 
 //
@@ -18,6 +19,13 @@ Emoji *emojiInitializer(int currentNumber, char* currentCode, char* currentName,
 
     //
     Emoji *emoji;
+
+    //
+    emoji->number = 0;
+    emoji->code = NULL;
+    emoji->name = NULL;
+    emoji->category = NULL;
+    emoji->subCategory = NULL;
 
     //
     emoji->number = currentNumber;

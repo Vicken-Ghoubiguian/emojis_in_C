@@ -1,6 +1,5 @@
 //
 #include <stdio.h>
-#include <stdlib.h>
 #include "emoji/emoji.h"
 
 // Definition of the main function of this file...
