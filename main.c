@@ -53,6 +53,9 @@ int main() {
 	printf("%s", poutingCatEmojiCode);
 	printf("%s", unicornEmojiCode);
 
+	//
+	emojiDeleter(unicornEmoji);
+
 	// Execution without any error...
 	return 0;
 }
