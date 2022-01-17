@@ -54,6 +54,15 @@ int main() {
 	printf("%s", unicornEmojiCode);
 
 	//
+	emojiDeleter(grinningCatEmoji);
+	emojiDeleter(grinningCatWithSmilingEyesEmoji);
+	emojiDeleter(catWithTearsOfJoyEmoji);
+	emojiDeleter(smilingCatWithHeartEyesEmoji);
+	emojiDeleter(catWithWrySmileEmoji);
+	emojiDeleter(kissingCatEmoji);
+	emojiDeleter(wearyCatEmoji);
+	emojiDeleter(cryingCatEmoji);
+	emojiDeleter(poutingCatEmoji);
 	emojiDeleter(unicornEmoji);
 
 	// Execution without any error...
