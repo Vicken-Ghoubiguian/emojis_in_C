@@ -15,10 +15,6 @@ int main() {
 	catEmoji = emojiInitializer(541, "\U0001F431", "Hey 2", "Hey 3", "Hey 4");
 
 	//
-	//char* unicornEmojiCode = (char*) malloc(sizeof(getEmojiCode(unicornEmoji)));
-	//char* catEmojiCode = getEmojiCode(catEmoji);
-
-	//
 	char* unicornEmojiCode = getEmojiCode(unicornEmoji);
 	char* catEmojiCode = getEmojiCode(catEmoji);
 
