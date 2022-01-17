@@ -6,24 +6,52 @@
 int main() {
 
 	//
-	Emoji *unicornEmoji;
-	Emoji *catEmoji;
+	Emoji *grinningCatEmoji;
+	Emoji *grinningCatWithSmilingEyes;
+	Emoji *catWithTearsOfJoyEmoji;
+	Emoji *smilingCatWithHeartEyesEmoji;
+	Emoji *catWithWrySmileEmoji;
+	Emoji *kissingCatEmoji;
+	Emoji *wearyCatEmoji;
 	Emoji *cryingCatEmoji;
+	Emoji *poutingCatEmoji;
+	Emoji *unicornEmoji;
 
 	//
-	unicornEmoji = emojiInitializer(550, "\U0001F984", "Hey 2", "Hey 3", "Hey 4");
-	catEmoji = emojiInitializer(541, "\U0001F431", "Hey 2", "Hey 3", "Hey 4");
+	grinningCatEmoji = emojiInitializer(115, "\U0001F63A", "Hey 2", "Hey 3", "Hey 4");
+	grinningCatWithSmilingEyes = emojiInitializer(116, "\U0001F638", "Hey 2", "Hey 3", "Hey 4");
+	catWithTearsOfJoyEmoji = emojiInitializer(117, "\U0001F639", "Hey 2", "Hey 3", "Hey 4");
+	smilingCatWithHeartEyesEmoji = emojiInitializer(118, "\U0001F63B", "Hey 2", "Hey 3", "Hey 4");
+	catWithWrySmileEmoji = emojiInitializer(119, "\U0001F63C", "Hey 2", "Hey 3", "Hey 4");
+	kissingCatEmoji = emojiInitializer(120, "\U0001F63D", "Hey 2", "Hey 3", "Hey 4");
+	wearyCatEmoji = emojiInitializer(121, "\U0001F640", "Hey 2", "Hey 3", "Hey 4");
 	cryingCatEmoji = emojiInitializer(122, "\U0001F63F", "Hey 2", "Hey 3", "Hey 4");
+	poutingCatEmoji = emojiInitializer(123, "\U0001F63E", "Hey 2", "Hey 3", "Hey 4");
+	unicornEmoji = emojiInitializer(550, "\U0001F984", "Hey 2", "Hey 3", "Hey 4");
 
 	//
-	char* unicornEmojiCode = getEmojiCode(unicornEmoji);
-	char* catEmojiCode = getEmojiCode(catEmoji);
+	char* grinningCatEmojiCode = getEmojiCode(grinningCatEmoji);
+	char* grinningCatWithSmilingEyesCode = getEmojiCode(grinningCatWithSmilingEyes);
+	char* catWithTearsOfJoyEmojiCode = getEmojiCode(catWithTearsOfJoyEmoji);
+	char* smilingCatWithHeartEyesEmojiCode = getEmojiCode(smilingCatWithHeartEyesEmoji);
+	char* catWithWrySmileEmojiCode = getEmojiCode(catWithWrySmileEmoji);
+	char* kissingCatEmojiCode = getEmojiCode(kissingCatEmoji);
+	char* wearyCatEmojiCode = getEmojiCode(wearyCatEmoji);
 	char* cryingCatEmojiCode = getEmojiCode(cryingCatEmoji);
+	char* poutingCatEmojiCode = getEmojiCode(poutingCatEmoji);
+	char* unicornEmojiCode = getEmojiCode(unicornEmoji);
 
 	//
-	printf("%s", unicornEmojiCode);
-	printf("%s", catEmojiCode);
+	printf("%s", grinningCatEmojiCode);
+	printf("%s", grinningCatWithSmilingEyesCode);
+	printf("%s", catWithTearsOfJoyEmojiCode);
+	printf("%s", smilingCatWithHeartEyesEmojiCode);
+	printf("%s", catWithWrySmileEmojiCode);
+	printf("%s", kissingCatEmojiCode);
+	printf("%s", wearyCatEmojiCode);
 	printf("%s", cryingCatEmojiCode);
+	printf("%s", poutingCatEmojiCode);
+	printf("%s", unicornEmojiCode);
 
 	// Execution without any error...
 	return 0;
