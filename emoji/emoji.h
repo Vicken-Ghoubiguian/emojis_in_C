@@ -8,6 +8,9 @@ typedef struct Emoji Emoji;
 Emoji *emojiInitializer(int currentNumber, char* currentCode, char* currentName, char* currentCategory, char* currentSubCategory);
 
 //
+void emojiDeleter(Emoji *emoji);
+
+//
 int getEmojiNumber(Emoji *emoji);
 
 //
