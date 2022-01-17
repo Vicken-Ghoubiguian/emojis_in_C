@@ -32,6 +32,12 @@ Emoji *emojiInitializer(int currentNumber, char* currentCode, char* currentName,
 }
 
 //
+void emojiDeleter(Emoji *emoji) {
+
+
+}
+
+//
 int getEmojiNumber(Emoji *emoji) {
 
     //
