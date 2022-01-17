@@ -18,14 +18,7 @@ typedef struct Emoji {
 Emoji *emojiInitializer(int currentNumber, char* currentCode, char* currentName, char* currentCategory, char* currentSubCategory) {
 
     //
-    Emoji *emoji;
-
-    //
-    emoji->number = 0;
-    emoji->code = NULL;
-    emoji->name = NULL;
-    emoji->category = NULL;
-    emoji->subCategory = NULL;
+    Emoji *emoji = malloc(sizeof(int) + (4 * sizeof(char*)));
 
     //
     emoji->number = currentNumber;
