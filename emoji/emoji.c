@@ -79,3 +79,10 @@ char* toString(Emoji *emoji) {
     //
     return "";
 }
+
+//
+int isEqual(Emoji *emoji) {
+
+    //
+    return 0;
+}
