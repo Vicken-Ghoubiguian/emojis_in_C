@@ -29,8 +29,12 @@ int main() {
 	poutingCatEmoji = emojiInitializer(123, "\U0001F63E", "Hey 2", "Hey 3", "Hey 4");
 	unicornEmoji = emojiInitializer(550, "\U0001F984", "Hey 2", "Hey 3", "Hey 4");
 
+	char* unicornEmojiAsString = toString(unicornEmoji);
+
+	printf("%s", unicornEmojiAsString);
+
 	//
-	char* grinningCatEmojiCode = getEmojiCode(grinningCatEmoji);
+	/*char* grinningCatEmojiCode = getEmojiCode(grinningCatEmoji);
 	char* grinningCatWithSmilingEyesEmojiCode = getEmojiCode(grinningCatWithSmilingEyesEmoji);
 	char* catWithTearsOfJoyEmojiCode = getEmojiCode(catWithTearsOfJoyEmoji);
 	char* smilingCatWithHeartEyesEmojiCode = getEmojiCode(smilingCatWithHeartEyesEmoji);
@@ -51,7 +55,7 @@ int main() {
 	printf("%s", wearyCatEmojiCode);
 	printf("%s", cryingCatEmojiCode);
 	printf("%s", poutingCatEmojiCode);
-	printf("%s", unicornEmojiCode);
+	printf("%s", unicornEmojiCode);*/
 
 	//
 	emojiDeleter(grinningCatEmoji);
