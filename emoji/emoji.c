@@ -47,6 +47,34 @@ int getEmojiNumber(Emoji *emoji) {
 }
 
 //
+char* getEmojiCode(Emoji *emoji) {
+
+    //
+    return emoji->code;
+}
+
+//
+char* getEmojiName(Emoji *emoji) {
+
+    //
+    return emoji->name;
+}
+
+//
+char* getEmojiCategory(Emoji *emoji) {
+
+    //
+    return emoji->category
+}
+
+//
+char* getEmojiSubCategory(Emoji *emoji) {
+
+    //
+    return emoji->subCategory;
+}
+
+//
 char* emojiToString(Emoji *emoji) {
 
     //
