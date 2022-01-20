@@ -31,8 +31,14 @@ int main() {
 
 	//
 	char* unicornEmojiAsString = emojiToString(unicornEmoji);
+	char* wearyCatEmojiAsString = emojiToString(wearyCatEmoji);
+	char* cryingCatEmojiAsString = emojiToString(cryingCatEmoji);
+	char* poutingCatEmojiAsString = emojiToString(poutingCatEmoji);
 
 	//
+	printf("%s", wearyCatEmojiAsString);
+	printf("%s", cryingCatEmojiAsString);
+	printf("%s", poutingCatEmojiAsString);
 	printf("%s", unicornEmojiAsString);
 
 	//
