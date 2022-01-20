@@ -30,24 +30,26 @@ int main() {
 	unicornEmoji = emojiInitializer(550, "\U0001F984", "Hey 2", "Hey 3", "Hey 4");
 
 	//
-	
-
-	//
+	char* catWithTearsOfJoyEmojiAsString = emojiToString(catWithTearsOfJoyEmoji);
+	char* smilingCatWithHeartEyesEmojiAsString = emojiToString(smilingCatWithHeartEyesEmoji);
+	char* catWithWrySmileEmojiAsString = emojiToString(catWithWrySmileEmoji);
 	char* kissingCatEmojiAsString = emojiToString(kissingCatEmoji);
-	printf("%s", kissingCatEmojiAsString);
+	char* wearyCatEmojiAsString = emojiToString(wearyCatEmoji);
+	char* cryingCatEmojiAsString = emojiToString(cryingCatEmoji);
+	char* poutingCatEmojiAsString = emojiToString(poutingCatEmoji);
+	char* unicornEmojiAsString = emojiToString(unicornEmoji);
 
 	//
-	char* wearyCatEmojiAsString = emojiToString(wearyCatEmoji);
+	printf("%s", catWithTearsOfJoyEmojiAsString);
+	printf("%s", smilingCatWithHeartEyesEmojiAsString);
+	printf("%s", catWithWrySmileEmojiAsString);
+	printf("%s", kissingCatEmojiAsString);
 	printf("%s", wearyCatEmojiAsString);
-
-	char* cryingCatEmojiAsString = emojiToString(cryingCatEmoji);
 	printf("%s", cryingCatEmojiAsString);
-
-	char* poutingCatEmojiAsString = emojiToString(poutingCatEmoji);
 	printf("%s", poutingCatEmojiAsString);
-
-	char* unicornEmojiAsString = emojiToString(unicornEmoji);
 	printf("%s", unicornEmojiAsString);
+
+	printf("%d", poutingCatEmoji->number);
 
 	//
 	emojiDeleter(grinningCatEmoji);

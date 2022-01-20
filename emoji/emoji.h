@@ -2,6 +2,17 @@
 #define EMOJI
 
 //
+typedef struct Emoji {
+
+    int number;
+    char* code;
+    char* name;
+    char* category;
+    char* subCategory;
+
+} Emoji;
+
+//
 typedef struct Emoji Emoji;
 
 //
