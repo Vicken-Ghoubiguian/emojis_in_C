@@ -75,7 +75,7 @@ char* getEmojiSubCategory(Emoji *emoji) {
 }
 
 //
-char* toString(Emoji *emoji) {
+char* emojiToString(Emoji *emoji) {
 
     //
     char* comma = ",";

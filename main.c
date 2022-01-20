@@ -29,7 +29,7 @@ int main() {
 	poutingCatEmoji = emojiInitializer(123, "\U0001F63E", "Hey 2", "Hey 3", "Hey 4");
 	unicornEmoji = emojiInitializer(550, "\U0001F984", "Hey 2", "Hey 3", "Hey 4");
 
-	char* unicornEmojiAsString = toString(unicornEmoji);
+	char* unicornEmojiAsString = emojiToString(unicornEmoji);
 
 	printf("%s", unicornEmojiAsString);
 
