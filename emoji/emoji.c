@@ -83,17 +83,19 @@ char* toString(Emoji *emoji) {
     char* closingParenthesis = ")";
 
     //
-    char* emojiString = malloc(sizeof(int) + (9 * sizeof(char*)));
+    char* emojiString = malloc(sizeof(int) + (10 * sizeof(char*)));
 
     //
     strcat(emojiString, openingParenthesis);
-
+    strcat(emojiString, emoji->number);
     strcat(emojiString, comma);
-
+    strcat(emojiString, emoji->code);
     strcat(emojiString, comma);
-
+    strcat(emojiString, emoji->name);
     strcat(emojiString, comma);
-
+    strcat(emojiString, emoji->category);
+    strcat(emojiString, comma);
+    strcat(emojiString, emoji->subCategory);
     strcat(emojiString, closingParenthesis);
 
     //
