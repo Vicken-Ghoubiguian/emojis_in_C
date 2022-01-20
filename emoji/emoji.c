@@ -78,7 +78,26 @@ char* getEmojiSubCategory(Emoji *emoji) {
 char* toString(Emoji *emoji) {
 
     //
-    return "";
+    char* comma = ", ";
+    char* openingParenthesis = "(";
+    char* closingParenthesis = ")";
+
+    //
+    char* emojiString = malloc(sizeof(int) + (9 * sizeof(char*)));
+
+    //
+    strcat(emojiString, openingParenthesis);
+
+    strcat(emojiString, comma);
+
+    strcat(emojiString, comma);
+
+    strcat(emojiString, comma);
+
+    strcat(emojiString, closingParenthesis);
+
+    //
+    return emojiString;
 }
 
 //
