@@ -48,7 +48,7 @@ char* emojiToString(Emoji *emoji) {
     char* closingParenthesis = ")";
 
     //
-    char* emojiString = malloc(11 * sizeof(char*));
+    char* emojiString = malloc(8 * sizeof(char*));
 
     //
     char* numberBuffer;
