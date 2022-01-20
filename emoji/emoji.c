@@ -40,6 +40,13 @@ void emojiDeleter(Emoji *emoji) {
 }
 
 //
+int getEmojiNumber(Emoji *emoji) {
+
+    //
+    return emoji->number;
+}
+
+//
 char* emojiToString(Emoji *emoji) {
 
     //
