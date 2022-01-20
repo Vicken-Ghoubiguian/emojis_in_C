@@ -1,6 +1,7 @@
 // Calling the used C libraries...
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <sqlite3.h>
 
 // Definition of the 'Emoji' type to represent an emoji with all of its characteristics...
