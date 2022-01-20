@@ -64,7 +64,7 @@ char* getEmojiName(Emoji *emoji) {
 char* getEmojiCategory(Emoji *emoji) {
 
     //
-    return emoji->category
+    return emoji->category;
 }
 
 //
