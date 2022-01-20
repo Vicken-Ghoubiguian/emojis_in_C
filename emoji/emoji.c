@@ -1,9 +1,9 @@
-//
+// Calling the used C libraries...
 #include <stdio.h>
 #include <stdlib.h>
 #include <sqlite3.h>
 
-//
+// Definition of the 'Emoji' type to represent an emoji with all of its characteristics...
 typedef struct Emoji {
 
     int number;
@@ -27,7 +27,7 @@ Emoji *emojiInitializer(int currentNumber, char* currentCode, char* currentName,
     emoji->category = currentCategory;
     emoji->subCategory = currentSubCategory;
 
-    //
+    // Returning the newly created emoji...
     return emoji;
 }
 
