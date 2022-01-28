@@ -110,10 +110,14 @@ char* emojiToString(Emoji *emoji) {
 int isEqual(Emoji *firstEmoji, Emoji *secondEmoji) {
 
     //
-    if(firstEmoji->number == secondEmoji->number) {
+    if((firstEmoji->number == secondEmoji->number) && 
+       (strcmp(firstEmoji->code, secondEmoji->code) == 0) &&
+       (strcmp(firstEmoji->name, secondEmoji->name) == 0) &&
+       (strcmp(firstEmoji->category, secondEmoji->category) == 0) &&
+       (strcmp(firstEmoji->subCategory, secondEmoji->subCategory) == 0)) {
 
         //
-        return 1
+        return 1;
 
     //    
     } else {
