@@ -110,7 +110,7 @@ char* emojiToString(Emoji *emoji) {
 int isEqual(Emoji *firstEmoji, Emoji *secondEmoji) {
 
     //
-    if(1 == 1) {
+    if(firstEmoji->number == secondEmoji->number) {
 
         //
         return 1
