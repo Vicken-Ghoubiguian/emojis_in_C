@@ -1,5 +1,6 @@
 //
 #include <stdio.h>
+#include <stdbool.h>
 #include "emoji/emoji.h"
 
 // Definition of the main function of this file...
@@ -50,12 +51,15 @@ int main() {
 	printf("%s", unicornEmojiAsString);
 
 	//
-	int test1 = isEqual(grinningCatEmoji, grinningCatWithSmilingEyesEmoji);
-	int test2 = isEqual(grinningCatEmoji, grinningCatEmoji);
+	bool test1 = isEqual(grinningCatEmoji, grinningCatWithSmilingEyesEmoji);
+	bool test2 = isEqual(grinningCatEmoji, grinningCatEmoji);
 
 	//
-	printf("%d\n", test1);
-	printf("%d\n", test2);
+	print("\n");
+
+	//
+	printf("Grinning cat emoji is equal to grinning cat with smiling eyes emoji ? %s\n", test1 ? "true" : "false");
+	printf("Grinning cat emoji is equal to grinning cat emoji ? %s\n", test2 ? "true" : "false");
 
 	//
 	emojiDeleter(grinningCatEmoji);

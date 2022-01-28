@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sqlite3.h>
+#include <stdbool.h>
 
 // Definition of the 'Emoji' type to represent an emoji with all of its characteristics...
 typedef struct Emoji {
@@ -107,7 +108,7 @@ char* emojiToString(Emoji *emoji) {
 }
 
 //
-int isEqual(Emoji *firstEmoji, Emoji *secondEmoji) {
+bool isEqual(Emoji *firstEmoji, Emoji *secondEmoji) {
 
     //
     if((firstEmoji->number == secondEmoji->number) && 
@@ -117,12 +118,12 @@ int isEqual(Emoji *firstEmoji, Emoji *secondEmoji) {
        (strcmp(firstEmoji->subCategory, secondEmoji->subCategory) == 0)) {
 
         //
-        return 1;
+        return true;
 
     //    
     } else {
 
         //
-        return 0;
+        return false;
     }
 }
