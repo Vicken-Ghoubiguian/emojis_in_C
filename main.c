@@ -50,7 +50,6 @@ int main() {
 	printf("%s", unicornEmojiAsString);
 
 	//
-	//
 	int test1 = isEqual(grinningCatEmoji, grinningCatWithSmilingEyesEmoji);
 	int test2 = isEqual(grinningCatEmoji, grinningCatEmoji);
 
