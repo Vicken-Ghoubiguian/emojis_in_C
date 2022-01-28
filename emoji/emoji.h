@@ -28,4 +28,7 @@ char* getEmojiSubCategory(Emoji *emoji);
 //
 char* emojiToString(Emoji *emoji);
 
+//
+int isEqual(Emoji *firstEmoji, Emoji *secondEmoji);
+
 #endif
