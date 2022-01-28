@@ -49,8 +49,14 @@ int main() {
 	printf("%s", poutingCatEmojiAsString);
 	printf("%s", unicornEmojiAsString);
 
-	/*int truc = getEmojiNumber(catWithTearsOfJoyEmoji);
-	printf("%d", truc);*/
+	//
+	//
+	int test1 = isEqual(grinningCatEmoji, grinningCatWithSmilingEyesEmoji);
+	int test2 = isEqual(grinningCatEmoji, grinningCatEmoji);
+
+	//
+	printf("%d\n", test1);
+	printf("%d\n", test2);
 
 	//
 	emojiDeleter(grinningCatEmoji);
