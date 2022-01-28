@@ -51,14 +51,14 @@ int main() {
 	printf("%s", unicornEmojiAsString);
 
 	//
-	bool test1 = isEqual(grinningCatEmoji, grinningCatWithSmilingEyesEmoji);
+	bool firstEqualityTest = isEqual(grinningCatEmoji, grinningCatWithSmilingEyesEmoji);
 	bool test2 = isEqual(grinningCatEmoji, grinningCatEmoji);
 
 	//
 	print("\n");
 
 	//
-	printf("Grinning cat emoji is equal to grinning cat with smiling eyes emoji ? %s\n", test1 ? "true" : "false");
+	printf("Grinning cat emoji is equal to grinning cat with smiling eyes emoji ? %s\n", firstEqualityTest ? "true" : "false");
 	printf("Grinning cat emoji is equal to grinning cat emoji ? %s\n", test2 ? "true" : "false");
 
 	//
