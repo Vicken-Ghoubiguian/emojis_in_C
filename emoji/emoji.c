@@ -107,8 +107,18 @@ char* emojiToString(Emoji *emoji) {
 }
 
 //
-int isEqual(Emoji *emoji) {
+int isEqual(Emoji *firstEmoji, Emoji *secondEmoji) {
 
     //
-    return 0;
+    if(1 == 1) {
+
+        //
+        return 1
+
+    //    
+    } else {
+
+        //
+        return 0;
+    }
 }
