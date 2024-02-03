@@ -4,6 +4,8 @@ C library to get, treat and use emojis 💓 🗑 🗞 🔓 😺 ✏ ⚒ 🎬 �
 
 ## Contents
 
+## How to use it ?
+
 ```c
 gcc main.c emoji/* -lsqlite3
 ```
