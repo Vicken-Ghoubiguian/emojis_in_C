@@ -4,6 +4,10 @@ C library to get, treat and use emojis 💓 🗑 🗞 🔓 😺 ✏ ⚒ 🎬 �
 
 ## Contents
 
+* [](),
+* [](),
+* []()
+
 ## Project's pesentation
 
 ## Project's structure
